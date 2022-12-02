@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Imagen.css">
+</head>
+<body>
+  <form action.href="Formulario de registro.html" target="_blank" accept-charset="utf-8">
+    <fieldset>
+      <br>
+      <div id="logo">
+        <img src="images/Logo.png">
+      </div>
+       
+      <div id="Titulo">
+        <br><label>Inicio Sesión</label>
+      </div>
+      <br>
+      <div class="labelis">
+        <label >Número de Identificación</label>
+      </div>
+      
+      <input autofocus title="Ingrese su numero de Documento" class="inputis" name="documento" type="text" pattern="[0-9]{5,15}" required><br><br>
+      
+      
+      <div class="labelis">
+        <label for="contraseña">Contraseña</label>
+      </div>  
+      
+      <input  title="Ingrese mínimo 8 caracteres" class="inputis" name="contraseña" type="password" pattern="[A-Za-z0-9 ]{8,30}" required><br><br>
+      
+      <br><br>
+      <div class="buttonis">
+        <button id ="ingresar" type="submit">Ingresar</button>  
+      </div>
+
+    </fieldset>
+  </form>
+</body>
+</html>
